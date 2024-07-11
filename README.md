@@ -1,6 +1,6 @@
 # study
 
-Samsung Cloud Platform(SCP) : Terraform file 작성
+__Samsung Cloud Platform(SCP) : Terraform file 작성__
 
 1. network.tf
    - vpc, subnet, igw
