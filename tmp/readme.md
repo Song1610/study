@@ -11,6 +11,15 @@
 
 [docker cli exersice](https://tinyurl.com/yc6sjts2)
 
+[컨테이너 보안 동영상](https://apn-partnertraining01.s3.ap-northeast-2.amazonaws.com/ContainerOnAWSTechnical/NewContainerSecurityVideo_08NOV2019.mp4)
+
+## 참고 workshop
+Docker Container & ECS
+[cat and dog](https://catalog.us-east-1.prod.workshops.aws/workshops/8c9036a7-7564-434c-b558-3588754e21f5/en-US/)
+
+EKS
+[Amazon EKS로 웹 애플리케이션 구축하기](https://catalog.us-east-1.prod.workshops.aws/workshops/9c0aa9ab-90a9-44a6-abe1-8dff360ae428/ko-KR/)
+
 ---
 
 마이크로 서비스 당면과제
@@ -50,8 +59,6 @@ rolling : v2 배포 후 v1 삭제하는 방식
 ### container image layer
 - 각 컨테이너마다 RW layer가 존재하며 컨테이너 내부의 file create/update/delete 내역은 모두 저장되지않음
 
-그니까 이게 도커교육인거야 컨테이너 교육인거야
-둘다 맞긴한데
 
 docker 이미지와 컨테이너 비교
 - 컨테이너 : 이미지의 실행 인스턴스
@@ -67,3 +74,21 @@ docker 이미지와 컨테이너 비교
  - 런타임 시 컨테이너 보안
 
 힝..
+
+---
+
+컨테이너 오케스트레이터 : 사용자가 원하는 상태로 동작하도록 관리
+
+aws 오케스트레이션
+1. eks (elastic k8s service)
+2. ecs(elsastic container service)
+
+
+### ECR
+ec2 container registry
+
+### ECS
+ECS 네트워크 모드
+host mode / bridge / aws vpc mode
+
+### EKS
