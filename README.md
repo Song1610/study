@@ -10,3 +10,5 @@
 4. loadbalancer.tf
    - LB, LB service, LB server group, LB profile(app, 지속성)
 
+수정
+25-02-21 / remove flask file
